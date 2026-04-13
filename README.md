@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# Projeto Final Bloco 03
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Documentação do Projeto
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte do curso de formação em tecnologia. O objetivo é resolver um problema específico, oferecendo uma solução escalável e eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Funcionalidades Principais
 
-## React Compiler
+- **Funcionalidade 1**: Descrição da funcionalidade 1.
+- **Funcionalidade 2**: Descrição da funcionalidade 2.
+- **Funcionalidade 3**: Descrição da funcionalidade 3.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Estrutura do Projeto
 
-## Expanding the ESLint configuration
+O projeto está organizado da seguinte forma:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+projeto_final_bloco_03/
+├── src/
+│   └── main.py
+├── README.md
+└── requirements.txt
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Como Executar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Para executar o projeto, siga os passos abaixo:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/erickystn/projeto_final_bloco_03.git
+   ```
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Execute o projeto:
+   ```bash
+   python src/main.py
+   ```
+
+### Contribuição
+
+Contribuições são bem-vindas! Se você quiser contribuir, por favor, siga as diretrizes de contribuição.
+
+### Licença
+
+Este projeto está licenciado sob a MIT License.
