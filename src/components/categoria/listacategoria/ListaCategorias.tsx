@@ -29,7 +29,7 @@ function ListaCategorias() {
         <>
 
             {isLoading && (
-                <div className="flex justify-center w-full my-8">
+                <div className="flex justify-center w-full my-8 ">
                     <SyncLoader
                         color="#312e81"
                         size={32}
@@ -47,7 +47,7 @@ function ListaCategorias() {
                     )}
 
                     <div className="grid grid-cols-1 md:grid-cols-2 
-                                    lg:grid-cols-3 gap-8">
+                                    lg:grid-cols-3 gap-8 px-4">
                         {
                             categorias.map((categoria) => (
                                 <CardCategoria key={categoria.id} categoria={categoria} />
