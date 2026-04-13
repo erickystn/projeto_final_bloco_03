@@ -20,7 +20,7 @@ function Navbar() {
 
                 {/* BARRA DE PESQUISA */}
                 <div className="flex-1 flex justify-center">
-                    <div className='relative w-full max-w-[450px] flex items-center'>
+                    <div className='relative w-full max-w-112.5 flex items-center'>
                         <input 
                             className="h-10 w-full rounded-lg px-4 py-2 text-black focus:outline-none bg-amber-50"
                             type="search" 
@@ -34,14 +34,14 @@ function Navbar() {
 
                 {/* LINKS E ÍCONES */}
                 <div className='flex gap-6 items-center min-w-fit text-sm font-medium'>
-                    <Link to='/postagens' className='hover:underline hidden md:block'>Categorias</Link>
-                    <Link to='/temas' className='hover:underline hidden md:block'>Cadastrar Categoria</Link>
+                    <Link to='/categorias' className='hover:underline hidden md:block'>Categorias</Link>
+                    <Link to='/cadastrarcategoria' className='hover:underline hidden md:block'>Cadastrar Categoria</Link>
                     
                     <div className='flex gap-3 items-center'>
-                        <Link to='/cadastrartema'>
+                        <Link to='/'>
                             <UserIcon size={32} weight="regular" className="hover:text-indigo-300 transition-colors" />
                         </Link>
-                        <Link to='/perfil'>
+                        <Link to='/'>
                             <ShoppingCartSimpleIcon size={32} weight="regular" className="hover:text-indigo-300 transition-colors" />
                         </Link>
                     </div>
