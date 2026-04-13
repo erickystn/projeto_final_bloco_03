@@ -70,8 +70,9 @@ PROJETO_FINAL_BLOCO_03/
 
 ## 📸 Screenshots
  
+<img src="src/assets/screenshot/screencapture.png" alt="Tela da Home do Sistema" width="800">
 
----
+
 
 ## 🤝 Diretrizes de Contribuição
 1. **Faça um Fork do repositório**
