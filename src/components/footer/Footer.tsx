@@ -1,5 +1,5 @@
 import { FacebookLogoIcon, InstagramLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react"
-import { useContext, type ReactNode } from "react"
+import { type ReactNode } from "react"
 
 
 function Footer() {
