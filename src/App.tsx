@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 import ListaCategorias from './components/categoria/listacategoria/ListaCategorias'
 import FormCategoria from './components/categoria/formcategoria/FormCategoria'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <div className="min-h-[80vh] ">
             <Routes>
@@ -26,7 +26,7 @@ function App() {
             </Routes>
           </div>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
